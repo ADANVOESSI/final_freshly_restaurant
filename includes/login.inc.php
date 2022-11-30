@@ -1,0 +1,3 @@
+<?php
+
+$loginCtrl = new LoginController();
