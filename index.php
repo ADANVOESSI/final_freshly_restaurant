@@ -7,40 +7,19 @@ require "./header.php";
         <form action="./includes/register.inc.php" method="post">
             <!-- First Name -->
             <div class="input">
-                <input 
-                type="text" 
-                name="firstname" 
-                placeholder="Fisrt Name" 
-                value="<?php echo $_GET["firstname"] ?? '' ?>" 
-                required>
+                <input type="text" name="firstname" placeholder="Fisrt Name" value="<?php echo $_GET["firstname"] ?? '' ?>" required>
             </div>
             <!-- Lasst Name -->
             <div class="input">
-                <input 
-                type="text" 
-                name="lastname" 
-                placeholder="Lasrt Name"
-                value="<?php echo $_GET["lastname"] ?? '' ?>" 
-                
-                >
+                <input type="text" name="lastname" placeholder="Lasrt Name" value="<?php echo $_GET["lastname"] ?? '' ?>">
             </div>
             <!-- User Name -->
             <div class="input">
-                <input 
-                type="text" 
-                name="username" 
-                placeholder="User Name" 
-                value="<?php echo $_GET["username"] ?? '' ?>" 
-                required>
+                <input type="text" name="username" placeholder="User Name" value="<?php echo $_GET["username"] ?? '' ?>" required>
             </div>
             <!-- Email -->
             <div class="input">
-                <input 
-                type="text" 
-                name="email"
-                placeholder="Email" 
-                value="<?php echo $_GET["email"] ?? '' ?>" 
-                required>
+                <input type="text" name="email" placeholder="Email" value="<?php echo $_GET["email"] ?? '' ?>" required>
             </div>
             <!-- Mot de passe -->
             <div class="input">
